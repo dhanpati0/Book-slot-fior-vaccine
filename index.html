@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <script src="userScript.js"></script>
+    <style>
+        .container {
+            height: 50%;
+            width: 35%;
+            align-items: center;
+            margin-top: 8%;
+        }
+    </style>
+</head>
+
+<body style="background-color:  #92A8D1">
+    <div class="container border mt-5" style="background-color:#B565A7">
+        <h3 align="center" class="mb-3"><b>User
+                Resistration Form</b></h3>
+        <form class="form-group" action="./admin.html" onsubmit="saveData()">
+
+
+            <div class="mt-3">
+                <input type="text" class="form-control" name="userName" id="userName" required="required"
+                    placeholder="Enter Name">
+            </div>
+
+            <div class="mt-3">
+                <input type="email" class="form-control" name="email" id="email" required="required"
+                    placeholder="Enter Email">
+            </div>
+
+            <div class="mt-3">
+                <input type="number" class="form-control" name="age" id="age" required="required"
+                    placeholder="Enter Age">
+            </div>
+            <div class="mt-3">
+                <input type="text" class="form-control" name="phone" id="phone" required="required"
+                    placeholder="Enter Phone Number">
+            </div>
+
+            <div class="mt-3">
+                <input type="text" class="form-control" name="aadharNumber" id="aadharNumber" required="required"
+                    placeholder="Enter Aadhar Number">
+            </div>
+
+            <div class="mt-3">
+                <input type="date" class="form-control" name="dateOfUser" id="dateOfUser" required="required"
+                    placeholder="Enter Date">
+            </div>
+
+
+            <div class="mt-3 mb-3">
+                <textarea class="form-control" name="address" id="address" required="required"
+                    placeholder="Enter Address"></textarea>
+            </div>
+            <div align="center">
+                <input type="submit" value="save" class="btn btn-success">
+            </div>
+        </form>
+    </div>
+
+
+    </div>
+
+    </div>
+</body>
+
+</html>
