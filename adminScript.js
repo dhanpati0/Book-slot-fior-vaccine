@@ -6,7 +6,7 @@ var tableData = userLists.map(user => (
     <td>${user.email}</td>
     <td>${user.age}</td>
     <td>${user.phone}</td>
-    <td>${user.adharNumber}</td>
+    <td>${user.aadharNumber}</td>
     <td>${user.dateOfUser}</td>
     <td>${user.address}</td>
     </tr>
